@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.taskTable {
+  border: 2px;
+  border-style: solid;
+  height: 50px;
+  width: 700px;
+  margin: 30px;  
+}
+
+
+.popup-box {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+  height: 65%;
+  min-height: 300px;
+  background-color: #fff;
+  border:1px #999 solid;
+  border-radius: 4px;
+  margin: 50px auto;
+  padding: 20px;
+  overflow: auto;
+}
+
+.input-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+}
+
+
+label {
+  margin-top: 15px;
+}
+
+.selection-form select {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+  background-color: #999;
+}
+
+
+.errorMessage {
+
+  color: red;
+  font-size: large;
+  font-weight: 100;
+}
